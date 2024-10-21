@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Circ Detect</string>
+   <string>ViralPlaqCounter</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="">
@@ -27,14 +27,14 @@
      <item>
       <widget class="QPushButton" name="pushButton">
        <property name="text">
-        <string>Выберите директорию с изображениями</string>
+        <string>Select the folder with images to process</string>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_2">
        <property name="text">
-        <string>Выберите директорию для сохранения результатов</string>
+        <string>Select the folder for result</string>
        </property>
       </widget>
      </item>
@@ -45,12 +45,12 @@
        </property>
        <widget class="QCheckBox" name="checkBox">
         <property name="text">
-         <string>Ручной режим</string>
+         <string>Curated mode</string>
         </property>
        </widget>
        <widget class="QCheckBox" name="checkBox_2">
         <property name="text">
-         <string>Сохранить в один файл</string>
+         <string>Save as a single file</string>
         </property>
         <property name="checked">
          <bool>true</bool>
@@ -61,7 +61,7 @@
      <item>
       <widget class="QPushButton" name="pushButton_3">
        <property name="text">
-        <string>Начать обработку!</string>
+        <string>Start!</string>
        </property>
       </widget>
      </item>
