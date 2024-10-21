@@ -22,12 +22,14 @@ git clone https://github.com/Olga-Bagrova/VirPlaqCounter.git
 
 ### Usage
 
-To use the tool, prepare a directory with images for processing and results. Run **VirPlaqCounter.exe** and customize the job as you prefer. (*Now only Russian language is available*)
+To use the tool, prepare a directory with images for processing and results. Run **VirPlaqCounter.exe** and customize the job as you prefer.
 
 
 ### Repo content
 
+* 'pics' - images for .md
 * 'raw_data/' - examples of images that can be run 
+* 'results' - example of the results
 * 'source_code/' - source code of the program. *This folder can be deleted after cloning, or it can be used to customize the program and run through python IDE*
 * 'README.md' - repository description
 * 'VirPlaqCounter.exe' - run the tool with GUI
