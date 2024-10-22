@@ -6,9 +6,9 @@
 This is a tool for automatic counting of virological plaques on a tablet:
 
 * based on Hough transform and K-means
-* processing of only 6-hole tablets is available now (see examples of images in the `/raw_data` folder)
+* processing of only 6-wells tablets is available now (see examples of images in the `/raw_data` folder)
 * the result in excel format
-* 2 modes: automatic and curated with viewing of the detected holes
+* 2 modes: automatic and curated with viewing of the detected wells
 
 
 ## Installation
@@ -47,10 +47,10 @@ Try the following:
 * press Enter
 * restart the window
 
-### Marks of the holes on the tablet are mixed up
+### Marks of the wells on the tablet are mixed up
 
 Look at the images from `/raw_data` and compare which marks are there and on your photo. Position your tablet with the same marking location and restart the run.
 
 ### It seems to me that the calculation is not correct, how can I check it
 
-Directories with visualization of the processing of the entire image and each hole will appear in the results folder (in our example it is `results/` directory). The verification can be done manually.
+Directories with visualization of the processing of the entire image and each well will appear in the results folder (in our example it is `results/` directory). The verification can be done manually.
